@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: Plus Jakarta Sans;
+    line-height: 150%;
+    color: #333333;
+}
+
+body{
+    background-color: #474747;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.page {
+    max-width: 1120px;
+    padding: 24px;
+    background-color: #F5F4F0;
+    border-radius: 24px;
+    margin: 80px auto 38px;
+}
+
+#descriçãoBusan {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-family: Edu Australia VIC WA NT Hand;
+    text-align: center;
+    color: #919191;
+}
+
+section + section{
+    margin-top: 30px;
+}
+
+.destinos{
+    padding: 24px;
+}
+
+.destinos p + p {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+#historia{
+    color:  #0C51A7;
+}
+
+img {
+    border-radius: 16px;
+    width: 100%;
+    height: 660px;
+    margin-bottom: 20px;
+}
+
+#orange {
+   color: #E95E10;
+}
+#casais {
+    color: #591B98;
+}
+#familias {
+    color: #E5245E;
+}
+
+#TemploHaedongYonggungsa{
+    margin-bottom: 40px;
+}
+
+#conclusao {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+footer{
+    color: #1E1E1E;
+    text-align: center;
+}
+
+footer img {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+}
